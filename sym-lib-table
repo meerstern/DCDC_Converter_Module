@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name ADP1613)(type Legacy)(uri ${KIPRJMOD}/ADP1613.lib)(options "")(descr ""))
+  (lib (name dcdc-cache)(type Legacy)(uri ${KIPRJMOD}/dcdc-cache.lib)(options "")(descr ""))
+  (lib (name l_core_ferrite_coupled)(type Legacy)(uri ${KIPRJMOD}/l_core_ferrite_coupled.lib)(options "")(descr ""))
+  (lib (name dcdc-rescue)(type Legacy)(uri ${KIPRJMOD}/dcdc-rescue.lib)(options "")(descr ""))
+)
