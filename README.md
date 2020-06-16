@@ -9,13 +9,21 @@ Non-insulated boost type DCDC Converter Module with ADP1612 (1.8~5.5V -> +15/-15
   * 出力はR2,R5で決定され、デフォルトは±15Vで固定されています
   * 出力有効ENは内部プルアップされているため、未接続orVIN接続で出力ONします
   * それぞれ最大200mA程度の出力を得られます
-  * Ni-MH電池2本2.4V電源供給、負荷150ohm(100ｍA) の場合、Peak-Peakで200mV前後、RMSで30mVのリップルです
-    ※負荷や測定条件によって異なるため、性能を保証するものではありません
+  * Ni-MH電池2本2.4V電源供給、負荷150ohm(100ｍA) の場合、Peak-Peakで30~50mV前後、RMSで30mV前後のリップルです
+    ※負荷や測定条件によって異なるため、性能を保証するものではありません  
+    
+    
+  <img src="https://github.com/meerstern/DCDC_Converter_Module/blob/master/Ripple.jpg" width="360">
   
 ## 注意
   * ±15Vで両側に同じような負荷を接続してください
   * +15V側のみを電圧フィードバックする回路のため、負荷のアンバランスで出力電圧が不安定になる場合があります  
-  * リップルを更に低減させるためには必要に応じて負荷側にコンデンサやフィルタを実装してください
+  * リップルを更に低減させるためには必要に応じて負荷側にコンデンサやフィルタを実装してください  
+  
+  
+  <img src="https://github.com/meerstern/DCDC_Converter_Module/blob/master/img1.JPG" width="360">
+  <img src="https://github.com/meerstern/DCDC_Converter_Module/blob/master/img2.JPG" width="360"> 
+
   
   
 [1]: https://www.analog.com/jp/products/adp1612.html
